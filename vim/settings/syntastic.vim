@@ -7,9 +7,11 @@ let g:syntastic_auto_loc_list=1
 "don't care about warnings
 let g:syntastic_quiet_messages = {'level': 'warnings'}
 
-" Default to eslint. If you need jshint, you can override this in
-" ~/.vimrc.after
-let g:syntastic_javascript_checkers = ['eslint']
+let g:tsuquyomi_disable_quickfix = 1
+let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
+
+set ballooneval
+autocmd FileType typescript nmap <buffer> <Leader>h : <C-u>echo tsuquyomi#hint()<CR>
 
 " I have no idea why this is not working, as it used to
 " be a part of syntastic code but was apparently removed

@@ -41,3 +41,20 @@ source ~/dotfiles/vim/settings/ctrlp.vim
 " ==== YankRing
 
 source ~/dotfiles/vim/settings/yankring.vim
+
+" ==== Syntastic
+
+source ~/dotfiles/vim/settings/syntastic.vim
+
+" ==== Tsuquyomi
+
+autocmd FileType typescript nmap <buffer> <Leader>h : <C-u>echo tsuquyomi#hint()<CR>
+
+" ==== YouCompleteMe
+"
+if !exists("g:ycm_semantic_triggers")
+  let g:ycm_semantic_triggers = {}
+endif
+
+let g:ycm_semantic_triggers['typescript'] = ['.']
+ 

@@ -23,12 +23,15 @@ Plugin 'skwp/YankRing.vim'
 Plugin 'tpope/vim-endwise.git'
 Plugin 'tpope/vim-surround.git'
 Plugin 'scrooloose/syntastic.git'
+Plugin 'Shougo/vimproc.vim' " Required for Quramy/tsuquyomi Typescript
+Plugin 'Quramy/tsuquyomi'
+Plugin 'godlygeek/csapprox.git' " Required for Gblame in terminal vim
+Plugin 'Valloric/YouCompleteMe'
 
 " Theme
 Plugin 'chriskempson/base16-vim'
 
-" Required for Gblame in terminal vim
-Plugin 'godlygeek/csapprox.git'
+
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

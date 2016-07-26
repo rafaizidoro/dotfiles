@@ -109,4 +109,7 @@ set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg,*.svg
 set wildignore+=*.swp,*.pyc,*.bak,*.class,*.orig
 set wildignore+=.git,.hg,.bzr,.svn
 
+set omnifunc=syntaxcomplete#Complete " Completion for typescript
+
+
 source ~/dotfiles/vim/settings.vim
