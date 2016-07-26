@@ -83,6 +83,7 @@ if has("gui_running")
   set lines=60
   set columns=190
   set guifont=Monaco:h12
+  set guioptions-=L "Remove scrollbars
 endif
 
 
