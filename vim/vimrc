@@ -23,9 +23,12 @@ nnoremap <tab> :bnext<cr>           " Tab to next buffer
 nnoremap <s-tab> :bprevious<cr>     " Shift-tab to previous buffer
 nnoremap <leader><leader> <C-^>     " Switch between last two buffers
 
+nnoremap <silent> vv <C-w>v
+nnoremap <silent> ss <C-w>s
+
 " Load plugins
 
-source ~/dotfiles/vim/vundle
+source ~/dotfiles/vim/vundle.vim
 
 " Swap file and backups
 
@@ -96,3 +99,4 @@ set wildignore+=*.jpg,*.bmp,*.gif,*.png,*.jpeg,*.svg
 set wildignore+=*.swp,*.pyc,*.bak,*.class,*.orig
 set wildignore+=.git,.hg,.bzr,.svn
 
+source ~/dotfiles/vim/settings.vim
