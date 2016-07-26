@@ -10,7 +10,6 @@ let g:syntastic_quiet_messages = {'level': 'warnings'}
 let g:tsuquyomi_disable_quickfix = 1
 let g:syntastic_typescript_checkers = ['tsuquyomi'] " You shouldn't use 'tsc' checker.
 
-set ballooneval
 autocmd FileType typescript nmap <buffer> <Leader>h : <C-u>echo tsuquyomi#hint()<CR>
 
 " I have no idea why this is not working, as it used to
