@@ -29,3 +29,15 @@ imap <D-/> <Esc>:TComment<CR>i
 " ==== LightLine
 
 source ~/dotfiles/vim/settings/lightline.vim
+
+" ==== Ag
+
+source ~/dotfiles/vim/settings/ag.vim
+
+" ==== CtrlP
+
+source ~/dotfiles/vim/settings/ctrlp.vim
+
+" ==== YankRing
+
+source ~/dotfiles/vim/settings/yankring.vim
