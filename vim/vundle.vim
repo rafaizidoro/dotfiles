@@ -27,6 +27,7 @@ Plugin 'Shougo/vimproc.vim' " Required for Quramy/tsuquyomi Typescript
 Plugin 'Quramy/tsuquyomi'
 Plugin 'godlygeek/csapprox.git' " Required for Gblame in terminal vim
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'vim-ruby/vim-ruby'
 
 " Theme
 Plugin 'chriskempson/base16-vim'

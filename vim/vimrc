@@ -35,7 +35,6 @@ source ~/dotfiles/vim/vundle.vim
 set noswapfile
 set nobackup
 set nowb
-au FocusLost * :wa
 
 " Indentation
 
@@ -114,3 +113,4 @@ set omnifunc=syntaxcomplete#Complete " Completion for typescript
 
 
 source ~/dotfiles/vim/settings.vim
+source ~/dotfiles/vim/utils.vim
