@@ -1,7 +1,7 @@
 " ==== NERDTree
 
 nmap <leader>n :NERDTreeToggle<cr>
-let NERDTreeShowHidden=1
+let NERDTreeShowHidden=0
 
 " Make nerdtree look nice
 let NERDTreeMinimalUI = 1
