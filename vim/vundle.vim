@@ -28,6 +28,11 @@ Plugin 'Quramy/tsuquyomi'
 Plugin 'godlygeek/csapprox.git' " Required for Gblame in terminal vim
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'marcweber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
+Plugin 'mattn/emmet-vim'
 
 " Theme
 Plugin 'chriskempson/base16-vim'
