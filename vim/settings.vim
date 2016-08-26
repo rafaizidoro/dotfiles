@@ -46,6 +46,10 @@ source ~/dotfiles/vim/settings/yankring.vim
 
 source ~/dotfiles/vim/settings/syntastic.vim
 
+" ==== Colorizer
+
+source ~/dotfiles/vim/settings/colorizer.vim
+
 " ==== Tsuquyomi
 
 autocmd FileType typescript nmap <buffer> <Leader>h : <C-u>echo tsuquyomi#hint()<CR>
@@ -57,4 +61,4 @@ if !exists("g:ycm_semantic_triggers")
 endif
 
 let g:ycm_semantic_triggers['typescript'] = ['.']
- 
+
